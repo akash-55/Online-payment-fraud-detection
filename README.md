@@ -18,9 +18,11 @@ Utilizing data visualization techniques to explore relationships between payment
 Partitioning the dataset into predictor variables (X) and the target variable (Y). The predictor variables include essential columns such as Amount, OldBalanceOrg, NewBalanceOrg, OldBalanceDest, NewBalanceDest, IsFlaggedFraud, CashOut, Debit, Payment, and Transfer. The target variable is IsFraud.
 
 ### Supervised Learning Algorithms
-Logistic Regression: Used for binary classification tasks like fraud detection. It estimates the probability of an event based on input data.
-Random Forest: Combines multiple decision trees to provide high accuracy and handle complex data relationships. It is used for both classification and regression.
-Multilayer Perceptron (MLP): An artificial neural network that processes structured data by mimicking the behavior of neurons and passing signals through layers with activation functions.
+Logistic Regression: Used for binary classification tasks like fraud detection. It estimates the probability of an event based on input data. </br>
+
+Random Forest: Combines multiple decision trees to provide high accuracy and handle complex data relationships. It is used for both classification and regression.</br>
+
+Multilayer Perceptron (MLP): An artificial neural network that processes structured data by mimicking the behavior of neurons and passing signals through layers with activation functions.</br>
 
 ## Results
 Our analysis reveals that the Random Forest model outperformed both the Logistic Regression and MLP models. The Random Forest model achieved an accuracy rate of 98.4%, a lower RMSE of 0.116, and an R-squared value of 0.945, indicating its exceptional ability to predict fraud accurately.
